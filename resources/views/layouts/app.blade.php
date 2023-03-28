@@ -15,7 +15,13 @@
     @include('partials._header')
 
     {{-- MAIN --}}
+    <main>
         @yield('jumbotron')
+
+        <section>
+            @yield('card-container')
+        </section>
+    </main>
 
     {{-- FOOTER --}}
 </body>

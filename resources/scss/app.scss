@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
+// HEADER
 .header-top {
     height: 20px;
     background-color: #0282f9;
@@ -32,25 +33,75 @@
 
                 a {
                     display: inline-block;
-                    height: 100px;
-                    line-height: 100px;
+                    height: 117px;
+                    line-height: 117px;
                     color: #444;
                     text-decoration: none;
                 }
 
                 .active {
                     color: #0282f9;
-                    border-bottom: 5px solid #0282f9;
+                    border-bottom: 4px solid #0282f9;
                 }
             }
         }
     }
 }
 
-.jumbotron {
-    height: 40vh;
-    background-image: url("./img/jumbotron.jpg");
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+// MAIN
+main {
+    background-color: #222;
+
+    .jumbotron {
+        height: 40vh;
+        background-image: url("./img/jumbotron.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        position: relative;
+
+        // Etichetta blu tra jumbotron e sezione cards
+        .jumbotron-label {
+            background-color: #0282f9;
+            padding: 0.5rem 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            position: absolute;
+            top: -1rem;
+        }
+
+        .content {
+            padding: 3rem 0;
+
+            .my-card {
+                padding: 1rem;
+
+                img {
+                    height: 255px;
+                    object-position: top;
+                    cursor: pointer;
+                }
+
+                .card-text {
+                    margin-top: 1rem;
+                    min-height: 2.5rem;
+                    color: #fff;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+
+        .primary-btn {
+            background-color: #0282f9;
+            padding: 0.5rem;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
 }

@@ -2,6 +2,5 @@
 
 @section('jumbotron')
 <div class="jumbotron">
-
 </div>
 @endsection

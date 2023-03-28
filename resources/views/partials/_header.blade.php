@@ -15,7 +15,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="active">
+                    <a href="{{ route('comics') }}" class="active">
                         COMICS
                     </a>
                 </li>
