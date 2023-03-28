@@ -21,6 +21,10 @@
 Progetto Laravel con un file di layout in cui viene inserita la struttura comune di tutte le pagine del sito web (tag head, tag body, ...) vengono inclusi poi header e footer tramite due partials.
 Si crea poi una rotta per visualizzare la lista di tutti i fumetti recuperati da un file inserito nella cartella config e si abbellisce lo stile sfruttando Sass.
 
-<!-- ## Bonus:
+## Bonus:
 
-Creare più pagine istituzionali che condividono lo stesso layout. -->
+Creare più pagine istituzionali che condividono lo stesso layout.
+Al click sulla singola figurina si possono vedere i dettagli di quella selezionata.
+(Stile da modificare)
+
+![Screenshot](./public/img/Screenshot_1.png)
