@@ -171,7 +171,7 @@
         </div>
 
         <!-- Logo DC di sfondo -->
-        <img src="./img/dc-logo-bg.png" alt="Logo background" />
+        <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="Logo background" />
         </div>
     </div>
 
@@ -188,7 +188,7 @@
             <li>
             <a href="#">
                 <img
-                src="./img/footer-facebook.png"
+                src="{{ Vite::asset('resources/img/footer-facebook.png') }}"
                 alt="Facebook icon"
                 />
             </a>
@@ -196,20 +196,20 @@
 
             <li>
             <a href="#">
-                <img src="./img/footer-twitter.png" alt="Twitter icon" />
+                <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" />
             </a>
             </li>
 
             <li>
             <a href="#">
-                <img src="./img/footer-youtube.png" alt="YouTube icon" />
+                <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="YouTube icon" />
             </a>
             </li>
 
             <li>
             <a href="#">
                 <img
-                src="./img/footer-pinterest.png"
+                src="{{ Vite::asset('resources/img/footer-pinterest.png') }}"
                 alt="Pinterest icon"
                 />
             </a>
@@ -218,7 +218,7 @@
             <li>
             <a href="#">
                 <img
-                src="./img/footer-periscope.png"
+                src="{{ Vite::asset('resources/img/footer-periscope.png') }}"
                 alt="Periscope icon"
                 />
             </a>

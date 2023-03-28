@@ -104,6 +104,29 @@ main {
             cursor: pointer;
         }
     }
+
+    .card-detail-container {
+        // debug
+        padding-top: 10rem;
+        min-height: 80vh;
+        background: linear-gradient(
+            to bottom,
+            #0282f9 0%,
+            #0282f9 15%,
+            #fff 15%,
+            #fff 100%
+        );
+
+        .shop-bar {
+            background-color: green;
+            height: 2.5rem;
+            line-height: 2.5rem;
+
+            .price {
+                flex-grow: 1;
+            }
+        }
+    }
 }
 
 // FOOTER

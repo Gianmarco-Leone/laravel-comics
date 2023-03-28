@@ -13,7 +13,9 @@
             @foreach($comics as $comic)
             <div class="col">
                 <div class="my-card">
+                  <a href="{{ route('detail', ['index' => $loop->index]) }}">
                     <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="{{ substr($comic['title'], 0, 8) }}...">
+                  </a>
                     <div class="card-body">
                       <p class="card-text">
                         {{ strtoupper($comic['series']) }}
