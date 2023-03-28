@@ -1,9 +1,48 @@
 @import "~bootstrap/scss/bootstrap";
 
-.jumbotron {
-    min-height: 100vh;
+.header-top {
+    height: 20px;
+    background-color: #0282f9;
 }
 
-img {
-    max-height: 150px;
+.header-bottom {
+    background-color: #fefefe;
+    height: 100px;
+
+    .container {
+        height: 100%;
+
+        img {
+            height: 70px;
+        }
+
+        ul {
+            list-style: none;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            margin-right: 0;
+
+            li {
+                margin: 0 0.5rem;
+                font-weight: 600;
+                font-size: 0.8rem;
+
+                a {
+                    display: inline-block;
+                    height: 100px;
+                    line-height: 100px;
+                    color: #444;
+                    text-decoration: none;
+                }
+
+                .active {
+                    color: #0282f9;
+                    border-bottom: 5px solid #0282f9;
+                }
+            }
+        }
+    }
 }
