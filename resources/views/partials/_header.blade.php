@@ -6,7 +6,7 @@
     <div class="header-bottom">
         <div class="container d-flex justify-content-center align-items-center">
             <a href="#">
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo" />
+                <img src="./img/dc-logo.png" alt="Logo" />
             </a>
             <ul>
                 <li>

@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
-@section('paragrafo_principale')
-Sono il paragrafo principale
+@section('jumbotron')
+<div class="jumbotron">
+
+</div>
 @endsection

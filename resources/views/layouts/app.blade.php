@@ -15,13 +15,7 @@
     @include('partials._header')
 
     {{-- MAIN --}}
-    <h1>
-        TEST TITOLO
-    </h1>
-
-    <p>
-        @yield('paragrafo_principale')
-    </p>
+        @yield('jumbotron')
 
     {{-- FOOTER --}}
 </body>
