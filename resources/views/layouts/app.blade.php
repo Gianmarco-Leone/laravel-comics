@@ -21,6 +21,10 @@
         <section>
             @yield('card-container')
         </section>
+
+        <section>
+            @yield('main-nav')
+        </section>
     </main>
 
     {{-- FOOTER --}}
