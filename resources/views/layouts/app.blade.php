@@ -18,7 +18,7 @@
     <main>
         @yield('jumbotron')
 
-        <section class="my-bg-dark">
+        <section class="bg-dark">
             @yield('card-container')
         </section>
 

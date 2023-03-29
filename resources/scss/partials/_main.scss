@@ -1,0 +1,210 @@
+// MAIN
+main {
+    .jumbotron {
+        height: 40vh;
+        background-image: url("../../img/jumbotron.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .my-bg-dark {
+        background-color: #222;
+    }
+
+    .container {
+        position: relative;
+
+        // Etichetta blu tra jumbotron e sezione cards
+        .jumbotron-label {
+            background-color: #0282f9;
+            padding: 0.5rem 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            position: absolute;
+            top: -1rem;
+        }
+
+        .content {
+            padding: 3rem 0;
+
+            .my-card {
+                padding: 1rem;
+
+                img {
+                    height: 255px;
+                    object-position: top;
+                    cursor: pointer;
+                }
+
+                .card-text {
+                    margin-top: 1rem;
+                    min-height: 2.5rem;
+                    color: #fff;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+
+        .primary-btn {
+            background-color: #0282f9;
+            padding: 0.5rem;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    .card-detail-container {
+        position: relative;
+
+        // debug
+        padding-top: 10rem;
+        min-height: 80vh;
+        background: linear-gradient(
+            to bottom,
+            #0282f9 0%,
+            #0282f9 15%,
+            #fff 15%,
+            #fff 100%
+        );
+
+        figure {
+            width: 10rem;
+            position: absolute;
+            top: -8rem;
+            left: 15rem;
+
+            span {
+                display: block;
+                background-color: #00a9d9;
+                padding: 0.5rem;
+                position: absolute;
+            }
+
+            span:first-child {
+                top: 0;
+            }
+
+            span:last-child {
+                width: 10rem;
+                bottom: 0;
+            }
+
+            img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        h3.title-detail {
+            color: #003f5e;
+        }
+
+        .shop-bar {
+            background-color: #55ba59;
+            height: 2.5rem;
+            line-height: 2.5rem;
+
+            .price {
+                flex-grow: 1;
+            }
+        }
+    }
+
+    .card-detail-container-bottom {
+        background-color: #f6f6f6;
+        position: relative;
+        z-index: 1;
+
+        .col-5:first-child {
+            .title-detail {
+                color: #003f5e;
+            }
+
+            p {
+                font-size: 0.7rem;
+                color: #00a9d9;
+                font-weight: bold;
+                width: 70%;
+            }
+        }
+
+        .col-5:last-child {
+            .title-detail {
+                color: #003f5e;
+            }
+
+            div.d-flex {
+                column-gap: 4rem;
+
+                b:first-child {
+                    color: #00a9d9;
+                }
+            }
+        }
+
+        .container-bottom {
+            .col-3 {
+                height: 5rem;
+
+                div.d-flex {
+                    height: 100%;
+                }
+
+                h6 {
+                    font-size: 0.8rem;
+                }
+
+                img {
+                    width: 2rem;
+                    margin-top: auto;
+                }
+            }
+        }
+    }
+
+    .main-nav {
+        height: 100px;
+        background-color: #0282f9;
+        position: relative;
+        z-index: 1;
+
+        .container {
+            height: 100%;
+
+            .row {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 2rem;
+
+                .col {
+                    height: 100%;
+                    width: calc(100% / 5);
+
+                    .my-card {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        font-size: 0.8rem;
+
+                        img {
+                            width: 2rem;
+                        }
+
+                        span {
+                            display: block;
+                            color: #fff;
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

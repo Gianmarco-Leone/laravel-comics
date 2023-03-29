@@ -27,4 +27,5 @@ Creare più pagine istituzionali che condividono lo stesso layout.
 Al click sulla singola figurina si possono vedere i dettagli di quella selezionata.
 (Stile da modificare)
 
-![Screenshot](./public/img/Screenshot_1.png)
+![Screenshot](./public/img/Screenshot_4.png)
+![Screenshot](./public/img/Screenshot_5.png)
