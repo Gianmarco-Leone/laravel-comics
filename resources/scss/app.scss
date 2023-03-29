@@ -50,14 +50,16 @@
 
 // MAIN
 main {
-    background-color: #222;
-
     .jumbotron {
         height: 40vh;
         background-image: url("./img/jumbotron.jpg");
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
+    }
+
+    .my-bg-dark {
+        background-color: #222;
     }
 
     .container {
